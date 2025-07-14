@@ -1,0 +1,12 @@
+ANNOVAR Version:
+	$Date: 2018-04-16 00:43:31 -0400 (Mon, 16 Apr 2018) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/share/apps/centos7/annovar/2018Apr16/bin/annotate_variation.pl -filter -dbtype esp6500siv2_all -buildver hg38 -out VCF/tumour_esp VCF/tumour_sample.hg38_ALL.sites.2015_08_filtered Reference/humandb/ -score_threshold 0.01
+ANNOVAR Started:
+	Mon Dec  9 08:50:07 2024
+NOTICE: Variants matching filtering criteria are written to VCF/tumour_esp.hg38_esp6500siv2_all_dropped, other variants are written to VCF/tumour_esp.hg38_esp6500siv2_all_filtered
+NOTICE: Processing next batch with 7089 unique variants in 7089 input lines
+NOTICE: Database index loaded. Total number of bins is 683825 and the number of bins to be scanned is 231
+NOTICE: Scanning filter database Reference/humandb/hg38_esp6500siv2_all.txt...Done

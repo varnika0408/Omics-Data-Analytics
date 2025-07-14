@@ -1,0 +1,12 @@
+ANNOVAR Version:
+	$Date: 2018-04-16 00:43:31 -0400 (Mon, 16 Apr 2018) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/share/apps/centos7/annovar/2018Apr16/bin/annotate_variation.pl -filter -dbtype 1000g2015aug_all -buildver hg38 -out VCF/tumour_sample VCF/tumour.pass.vcf Reference/humandb/ -maf 0.01
+ANNOVAR Started:
+	Mon Dec  9 08:47:39 2024
+NOTICE: Variants matching filtering criteria are written to VCF/tumour_sample.hg38_ALL.sites.2015_08_dropped, other variants are written to VCF/tumour_sample.hg38_ALL.sites.2015_08_filtered
+NOTICE: Processing next batch with 77876 unique variants in 77876 input lines
+NOTICE: Database index loaded. Total number of bins is 2821635 and the number of bins to be scanned is 38752
+NOTICE: Scanning filter database Reference/humandb/hg38_ALL.sites.2015_08.txt...Done
